@@ -1,0 +1,36 @@
+        body {
+        background-color: navajowhite;
+        display: block;
+        margin: 8px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .welcome-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color: saddlebrown;
+    }
+    
+    #navbar {
+        position: fixed;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: beige;
+        text-decoration: whithe;
+        top: 0;
+        text-align: center;
+    }
+    
+    nav ul {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: inline-flex;
+        text-align: justify;
+        background-color: black
+    }
+    
+    @media (max-width: 720px) {
+        body {
+            font-size: 6.em;
+        }
